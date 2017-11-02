@@ -1,0 +1,44 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h2, h3 {
+  color: teal;
+  padding: 10px 0px 20px 0px;
+}
+
+body {
+  font-family: Arial;
+  background-color: #708090;
+}
+
+p {
+  min-width: 200px;
+  max-width: 800px;
+  padding: 10px 10px;
+}
+
+td {
+  box-sizing: content-box;
+ /* border: 2px solid black; */
+  padding: 0px 10px;
+
+}
+
+h1 { /* A picture behind the main title words */
+  background-image: url("./Internet Picture Header.jpg");
+  background-position: bottom;
+  height: 100px/* 591px*/;
+  width: 1050px;
+  font-family: Calibri;
+  padding-top: 60px;
+  color: yellow;
+  overflow: hidden;
+}
+
+.second {
+  padding: 20px 0px 20px 0px;
+}
